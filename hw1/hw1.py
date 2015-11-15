@@ -1,9 +1,7 @@
 import mediacloud, json, datetime, ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read('config.cfg')
-
-
+config.read('template_config.cfg')
 
 my_api_key = config.get('Media Cloud', 'my_api')
 mc = mediacloud.api.MediaCloud(my_api_key)

@@ -9,4 +9,5 @@ Has the converstaion about bees increased between 2013 and 2014?
 run: `pip install -r requirments.txt`
 
 ### Running:
+Edit "template_config.cfg" file: change "add your media cloud api key here!" to be your media cloud api key.
 run: `python hw1.py`
