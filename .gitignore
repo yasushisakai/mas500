@@ -42,5 +42,5 @@ Thumbs.db
 # My Rules #
 ############
 *.ipynb_checkpoints
-hw1/config.cfg
-hw1/venv/*
+hw/config.cfg
+/venv/*
